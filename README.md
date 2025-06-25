@@ -1,4 +1,3 @@
-```markdown
 # 🇮🇳 FDI Sector Insights: 2000–2025
 
 A modular data pipeline to clean, transform, and query India's sector-wise FDI equity inflows using Python and SQLite.
@@ -11,7 +10,6 @@ A modular data pipeline to clean, transform, and query India's sector-wise FDI e
 - Pytest (unit testing)
 
 ## Project Structure
-```
 
 FDI\_Sector\_Insights\_Engine/
 ├── data\_maker.py         # Cleans and reshapes Excel data
