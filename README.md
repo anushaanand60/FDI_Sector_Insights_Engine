@@ -11,18 +11,16 @@ A modular data pipeline to clean, transform, and query India's sector-wise FDI e
 
 ## Project Structure
 
-FDI\_Sector\_Insights\_Engine/
-├── data\_maker.py         # Cleans and reshapes Excel data
-├── data\_feeder.py        # Loads cleaned data into SQLite
-├── run\_pipeline.py       # Orchestrates full pipeline
-├── fdi\_insights.ipynb    # Optional notebook for analysis/visuals
+FDI_Sector_Insights_Engine/
+├── data_maker.py # Cleans and reshapes Excel data
+├── data_feeder.py # Loads cleaned data into SQLite
+├── run_pipeline.py # Orchestrates full pipeline
+├── fdi_insights.ipynb # Optional notebook for analysis/visuals
 ├── tests/
-│   └── test\_data\_maker.py  # Unit test for cleaning logic
-├── fdi\_sector.db         # SQLite database (output)
-├── requirements.txt      # Project dependencies
-└── README.md             # Project overview
-
-````
+│ └── test_data_maker.py # Unit test for cleaning logic
+├── fdi_sector.db # SQLite database (output)
+├── requirements.txt # Project dependencies
+└── README.md # Project overview
 
 ## How to Run (Colab/CLI)
 ```bash
